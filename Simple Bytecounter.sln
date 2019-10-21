@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Bytecounter", "Simple Bytecounter\Simple Bytecounter.csproj", "{0CE7CA94-67C8-4234-8449-0AE6F1014185}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE7CA94-67C8-4234-8449-0AE6F1014185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE7CA94-67C8-4234-8449-0AE6F1014185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE7CA94-67C8-4234-8449-0AE6F1014185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE7CA94-67C8-4234-8449-0AE6F1014185}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
