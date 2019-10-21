@@ -205,11 +205,11 @@
 using System;
 using System.Collections.Generic;
 
-/*
- * Rough Implementation of Google Guava / Google Collections Library "ArrayListMultiMap"
- */
 namespace Simple_Bytecounter
 {
+    /*
+     * Rough Implementation of Google Guava / Google Collections Library "ArrayListMultiMap"
+     */
     public class ArrayListMultiMap<TK,TV>
     {
         private ArrayListMultiMap(int initialCapacity) {

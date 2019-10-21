@@ -8,6 +8,12 @@ namespace Simple_Bytecounter
     {
         private static void Main(string[] args)
         {
+            if (args.Length == 0 || args.Length > 1)
+            {
+                Console.WriteLine("Please Insert the Path of the File you would like to scan as first Parameter!");
+                return;
+            }
+
             var fs = File.OpenRead(args[0]);
             var buff = new byte[(int) fs.Length];
             fs.Read(buff, 0, (int) fs.Length);
